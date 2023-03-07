@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         view.backgroundColor = .systemBackground
         setupButton()
         
+        nextButton.layer.cornerRadius = 25
+        
         title = "First Screen"
         navigationController?.navigationBar.prefersLargeTitles = true
         
